@@ -240,22 +240,26 @@ footer {
 }
 
 .footer-1 {  
+  
   width: 300px;
-  flex-grow: 1;
+  padding-left: 30px;
 }
 
 .fotter-2 {
-  padding-left: 50px;
+  
   width: 300px;
+  padding-left: 50px;
 }
 
 .fotter-3 {
-  padding-left: 50px;
+ 
   width: 300px;
+  /* padding-left: px; */
 }
 .fotter-4 {
-  padding-left: 50px;
+  
   width: 300px;
+  padding-left: 50px;
 }
 
 .fotterend {
