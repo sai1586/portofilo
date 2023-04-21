@@ -228,7 +228,7 @@
 
 footer {
   display: flex;
-  height: 300px;
+  height: 250px;
   font-size: 14px;
   bottom: 0;
   left: 0;
@@ -263,8 +263,8 @@ footer {
 }
 
 .fotterend {
-  font-size: 16px;
-  font-family: ProximaNovaA-Semibold;
+  font-size: 15px;
+  font-family: sans-serif;
   padding-bottom: 5px;
   display: flex;
   height: 280px;
@@ -281,4 +281,13 @@ footer {
   width: 100%;
   height: 40px;
   background-color: #dbd6d6;
+}
+.my-line {
+  border: none;
+  height: 1px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #dbd6d6;
+  margin: 20px 0;
+
 }
