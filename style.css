@@ -52,7 +52,7 @@
     float: left;
     width: 10%;
     padding: 10px;
-    background: rgb(156,197,60);
+    background: #6cd138;
     color: white;
     font-size: 17px;
     border: 1px solid grey;
@@ -97,7 +97,7 @@
     width: 180px;
     flex-grow: 1;
     color: white;
-    background-color: rgb(156,197,60);
+    background-color: #6cd138;
     border: 0.5px solid #bebdbd;
 }
 
@@ -152,7 +152,7 @@
   bottom: 2px; /* Change the thickness of the underline by adjusting the value */
   width: 100%;
   height: 3px; /* Change the height of the underline by adjusting the value */
-  background-color: rgb(156,197,60); /* Change the color of the underline to your preferred color */
+  background-color: #6cd138; /* Change the color of the underline to your preferred color */
 }
 .Employees{
   padding-top: 10px;
@@ -193,7 +193,7 @@
 
 .tab {
   border: none;
-  background-color:rgb(156,197,60)#eee;
+  background-color:#6cd138#eee;
   padding: 1px;
   margin-right: 10px;
   cursor: pointer;
@@ -229,6 +229,8 @@
 footer {
   display: flex;
   height: 300px;
+  font-size: 14px;
+  font-family: ProximaNovaA-Semibold;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -258,6 +260,8 @@ footer {
 }
 
 .fotterend {
+  font-size: 16px;
+  font-family: ProximaNovaA-Semibold;
   padding-bottom: 5px;
   display: flex;
   height: 280px;
@@ -268,6 +272,7 @@ footer {
 }
 
 .copyright{
+  font-family: ProximaNovaA-Semibold;
   text-align: center;
   padding-top: 0.3px;
   width: 100%;
