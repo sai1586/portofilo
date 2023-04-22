@@ -105,6 +105,7 @@
     width: 600px;
     flex-grow: 3;
     background-color: white;
+    font-size: small;
     border: 1px solid #bebdbd;    
 }
 
@@ -115,9 +116,15 @@
 .sharecol1 {
     width: 600px;
     flex-grow: 1;
+    color: #333333a1;
     background-color: white;
+    font-size: small
    
 }
+.sharecol1 td:hover{
+  color: #6cd138;
+}
+
 .body {
   display: flex;
   height: 500px;
@@ -177,6 +184,7 @@
 .sai{
   padding-top:5px;
   padding-left:70px;
+  color: #6cd138 ;
 }
 .a_year {
   padding-left: 150px;
@@ -184,6 +192,7 @@
 
 .tabbed-slider {
   display: flex;
+  height: auto;
   flex-direction: column;
 }
 
@@ -290,4 +299,73 @@ footer {
   background-color: #dbd6d6;
   margin: 20px 0;
 
+}
+.slide-1{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.aboutimage{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.description {
+  width: 50%;
+  padding-left: 50px;
+  display: flex;
+  text-align: justify;
+}
+
+.aboutdescription {
+  width: 50%;
+  padding-left: 50px;
+  display: flex;
+  text-align: justify;
+}
+.scrollable {
+  padding-top: 10px;
+  height: 450px; /* Set a fixed height */
+  overflow: auto; /* Add a scroll when content overflows */
+}
+.WorkExperience{
+  padding-top: 100px;
+  color: #6cd138;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+  position: absolute;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.desc{
+  padding: 10px;
+  text-align: left;
+  background-color: white;
+  color: #333333a1;
+  border-bottom: 1px solid #c4c2c29d;
+
+
+}
+
+.desc:hover{
+  background-color: #c4c2c29d;
+  color: black;
 }
